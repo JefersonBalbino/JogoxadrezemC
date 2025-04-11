@@ -9,7 +9,7 @@ int main(){
       printf("Torre: Direita!\n");
     }
     
-    int i = 1;
+    i = 1;
     //Movimentação Rainha
     while (i <= 8)
     {
@@ -18,12 +18,12 @@ int main(){
        i++;
     }
     
-    int i = 1;
+    i = 1;
     //Movimentação bispo
     do
     {
       
-        printf("Bispo: Cima, direita!");
+        printf("Bispo: Cima, direita!\n");
         i++;
     } while (i <= 5);
     
